@@ -1,0 +1,22 @@
+/* titulos importantes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+/* font-family: 'Playfair Display SC', serif; */
+
+/* parrafos de 2da */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* font-family: 'Bree Serif', serif; */
+
+body{ background-color:gray; 
+    padding: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+h1 {
+    color:aqua;
+    font-family: 'Playfair Display SC', serif;
+}    
+h2{
+    color:brown;
+}
+
+ 
