@@ -9,17 +9,19 @@
      <!-- Open Graph data -->
     <meta property="og:title" content="proyecto final" />
     <meta property="og:type" content="curriculum vitae" />
-    <meta property="og:url" content=" http://www.example.com" /> <!-- corregir esto -->
+    <meta property="og:url" content=" http://www.example.com" /> <!-- corregir esto .. va la dire url final -->
     <meta property="og:image" content=" https://www.argentina.gob.ar/sites/default/files/min_ciencia_tecnologia_innovacion.png" />
     <meta property="og:description" content="proyecto final integrador de frontend" />
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
     
 </head>
 <body>
-    <div id="mostrarhora"></div>
-
-    <header>
-           <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="foto de la persona">
+    <!-- el reloj desde JavaScript -->
+   <div id="relojnumerico" class="reloj" onload="cargarReloj()">
+   </div>
+     <header>
+        <section class="fotoprincipal">
+           <p><img src="https://randomuser.me/api/portraits/men/75.jpg" alt="foto de la persona"></p></section>
         <h1>Adriel Medero</h1>
         <p>Tecnico Aministrador de Empresa</p>
     </header>
@@ -40,7 +42,7 @@
        <li> <a href="#Aptitudes">Aptitudes</a></li>
        <li> <a href="#Habilidades y Hobbies">Habilidades y Hobbies</a></li>
     </ul>
-      <br>
+      <br><!-- nada tiene que ver con el cv pero practique la funcion de insertarlo en el caso que sea necesario -->
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Ycs7gq_fRcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
     <article>
@@ -132,7 +134,7 @@
         <br>
         <button type="submit">Enviar</button>
      </form>
-     <p>prueba</p>
+     <p>by landie 2023</p>
      <script src="js/function.js"></script>
     
 </body>
