@@ -13,17 +13,18 @@
     <meta property="og:image" content=" https://www.argentina.gob.ar/sites/default/files/min_ciencia_tecnologia_innovacion.png" />
     <meta property="og:description" content="proyecto final integrador de frontend" />
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
-    
+    <style>img {max-width: 100%;height: auto;}</style>
 </head>
 <body>
-    <!-- el reloj desde JavaScript -->
+    <!-- el reloj desde JavaScript -->                      
    <div id="relojnumerico" class="reloj" onload="cargarReloj()">
    </div>
      <header>
         <section class="fotoprincipal">
-           <p><img src="https://randomuser.me/api/portraits/men/75.jpg" alt="foto de la persona"></p></section>
+           <p><img src="https://thumbs.dreamstime.com/b/hombre-joven-con-el-curriculum-vitae-49890604.jpg" alt="foto de la persona" width="500" height="500" ></p></section>
         <h1>Adriel Medero</h1>
-        <p>Tecnico Aministrador de Empresa</p>
+        <h3>29 años</h3>
+        <h2>Tecnico Aministrador de Empresa</h2>
     </header>
     <section class="iconos">
             <p><img src="http://dw.12115.net/d/file/p/2022/02-25/11d1b79a923a152b50c005f87d04d360.jpg"
@@ -43,9 +44,9 @@
        <li> <a href="#Habilidades y Hobbies">Habilidades y Hobbies</a></li>
     </ul>
       <br><!-- nada tiene que ver con el cv pero practique la funcion de insertarlo en el caso que sea necesario -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ycs7gq_fRcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    
-    <article>
+      <div class="div_contenedor"> <iframe width="560" height="315"src="https://www.youtube.com/embed/Ycs7gq_fRcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+        <article>
         <a name="Formacion"/>
         <h2>Formacion</h2>
             Bachillerato en Ciencias Sociales IES Castelao, Vigo
@@ -130,12 +131,12 @@
         <br>
         <label for="comentario">Comentario</label>
         <br>
-        <textarea cols="55" rows="10" id="comentario" placeholder="escribe tu comentario"></textarea>
+        <textarea cols="120" rows="10" style="max-width:100%" id="comentario" placeholder="escribe tu comentario"></textarea>
         <br>
         <button type="submit">Enviar</button>
      </form>
      <p>by landie 2023</p>
-     <script src="js/function.js"></script>
+ <script src="js/function.js"></script>
     
 </body>
 </html>
